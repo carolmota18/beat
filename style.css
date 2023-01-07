@@ -14,15 +14,16 @@ header {
     flex-direction: column;
   }
   .navMenu {
-    width: 50%;
-    height: 50%;
+    width: 50vw;
+    height: 20vh;
     display: flex;
     align-items: center;
+    justify-content: center;
     justify-content: space-around;
     font-family: 'Roboto';
   }
   .menuLista {
-    display: flex;
+    display: flex;   
     justify-content: space-around;
     width: 50%;
   
@@ -69,7 +70,50 @@ header {
    
   }
   .corpoDoSite {
-    background-color: blueviolet;
+   
     width: 100%;
-    height: 50%;
+    height: 100%;
+    background-color: #FFA185;
   }
+  .titulomain{
+    text-transform: uppercase;
+ font-family: 'Roboto';
+ color: white;
+ font-size: 1.5rem;
+ 
+  }
+  .paragrafomain{
+    height: 20vh;
+    font-family: 'Roboto';
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+  }
+  .caixaDeImgsUm{
+    width: 40vw;
+    height: 40vh;
+    display: flex;
+ 
+ 
+  }
+  .caixaDeImgsDois{
+    width: 40vw;
+    height: 40vh;
+    display: flex;
+ 
+  }
+  .imagen{
+    width: 40vw;
+    height: 40vh;
+    display: flex;
+   justify-content: center;
+  }
+    .paragrafomainDois{
+      width: 30vw;
+      height: 20vh;
+      font-weight: 900;
+      font-family: 'Roboto';
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
